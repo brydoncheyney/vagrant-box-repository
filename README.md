@@ -5,7 +5,7 @@ Atlas.
 
 ## Create a box
 
-Package an [https://github.com/brydoncheyney/jla-static](existing box),
+Package an [existing box](https://github.com/brydoncheyney/jla-static),
 
     [box]$ vagrant up
     [box]$ vagrant package --out BOX

@@ -1,0 +1,6 @@
+*.box
+*.swp
+.vagrant
+*.out
+*.log
+*.gz

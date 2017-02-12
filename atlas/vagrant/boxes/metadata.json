@@ -1,0 +1,21 @@
+{
+  "name": "jla/centos6-lxc",
+  "description": "jla CentOS 6",
+  "versions": [{
+    "version": "1.0.1",
+    "providers": [{
+      "name": "lxc",
+      "url": "./atlas/vagrant/boxes/jla-centos6-1.0.1-lxc.box",
+      "checksum_type": "sha256",
+      "checksum": "52a338ef4961f1c6203c3769624bef09d7b2db4934cad60a12cb7e1c1d667d87"
+    }]},
+    {
+    "version": "1.0.2",
+    "providers": [{
+      "name": "lxc",
+      "url": "./atlas/vagrant/boxes/jla-centos6-1.0.2-lxc.box",
+      "checksum_type": "sha256",
+      "checksum": "ced8b2a44f4ecd376868544cf342c8ff1c4eeb2bee4bf57b7db2b823426b33e8"
+    }]}
+  ]
+}

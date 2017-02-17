@@ -2,6 +2,11 @@
 
 set -eou pipefail
 
+command -v jq &> /dev/null || {
+  echo -e "Cannot find jq in PATH!\nhttps://stedolan.github.io/jq/"
+  exit 1
+}
+
 repository_domain=.
 repository_path=atlas/vagrant/boxes
 repository_url=${repository_domain}/${repository_path}
